@@ -1,0 +1,105 @@
+body {
+    font-family: sans-serif;
+    padding: 2rem;
+}
+
+/** Se coloca a un punto para hacer referencia a una clase en HTML*/
+.titulo-lista {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    color: blue;
+}
+
+/** se coloca el simbolo numeral para hacer una referencia a un ID*/
+#input-lista {
+    padding: 0.8rem 1rem;
+    width: 90%;
+    border-radius: 0.6rem;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#boton-agregar {
+    padding: 0.5rem 1rem;
+    width: 30%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3 ease-in-out;
+}
+
+/** FONAWESOME */
+.lista-agregar-lista {
+    display: flex;
+    gap: 1rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.lista-contenedor {
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0 auto;
+}
+
+#lista-super {
+    /* list-style: none; */
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    /* border: 1px solid black;
+    border-radius: 0.5rem; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: space-between;
+    background-color: black; */
+}
+
+.lista-item {
+    list-style: none;
+    width: 380px;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000005;
+}
+
+.lista-item>span {
+    display: inline-block;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black
+}
+
+.lista-item>button {
+    margin-right: 1rem;
+}
+
+#boton-eliminar {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    font-size: x-small;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem;
+    color: white;
+    background: red;
+}
